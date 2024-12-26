@@ -14,23 +14,23 @@ int main()
 {
     double decimals[5];
 
-    cout << "1 번째 : ";
+    cout << "First Number : ";
     cin >> decimals[0];
 
-    cout << "2 번째 : ";
+    cout << "Second Number : ";
     cin >> decimals[1];
 
-    cout << "3 번째 : ";
+    cout << "Third Number : ";
     cin >> decimals[2];
 
-    cout << "4 번째 : ";
+    cout << "Fourth Number : ";
     cin >> decimals[3];
 
-    cout << "5 번째 : ";
+    cout << "Fifth Number : ";
     cin >> decimals[4];
 
-    cout << " 총점 : " << calculateSum(decimals[0], decimals[1], decimals[2], decimals[3], decimals[4]) << endl;
-    cout << " 평균 : " << calculateAverage(decimals[0], decimals[1], decimals[2], decimals[3], decimals[4]) << endl;
+    cout << " Total : " << calculateSum(decimals[0], decimals[1], decimals[2], decimals[3], decimals[4]) << endl;
+    cout << " Average : " << calculateAverage(decimals[0], decimals[1], decimals[2], decimals[3], decimals[4]) << endl;
     return 0;
 }
 
